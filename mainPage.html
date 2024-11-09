@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styleFonts.css">
+  <link rel="stylesheet" href="styles/styleImages.css">
+  <link rel="stylesheet" href="styles/styleMainPage.css">
+  <title>Главная страница</title>
+</head>
+<body>
+  <header>
+    <div class="header__wrapper">
+      <ul class="header__menu">
+        <li class="menu-item"><a href="#" class="item item-active">Главная</a></li>
+        <li class="menu-item"><a href="#" class="item">Страница 1</a></li>
+        <li class="menu-item"><a href="#" class="item">Страница 2</a></li>
+      </ul>
+      <div class="header__accout">
+        <div class="account">
+          <img src="/img/account-avatar-man-svgrepo-com.svg" alt="icon-account" id="icon-account">
+          <p class="icon-account-text">Вход в аккаунт</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="mainSection">
+      <h1 class="mainSection__header">
+        Добро пожаловать! Это тестовый сайт для проверки функциональности.
+      </h1>
+      <p class="mainSection__paragraph">
+        Он будет дорабатываться наверное когда-нибудь.
+      </p>
+      <button class="mainSection__checkButton" onclick="getAlert()">Нажми на меня</button>
+    </section>
+  </main>
+  <script src="javascript/appMainPage.js"></script>
+</body>
+</html>
